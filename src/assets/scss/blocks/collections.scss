@@ -2,6 +2,7 @@
     background-color: $cream;
     &__inner {
         display: flex;
+        flex-wrap: wrap;
     }
 
     &__item {
