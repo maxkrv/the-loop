@@ -1,0 +1,44 @@
+.intro {
+    background-color: $cream;
+    height: 100vh;
+
+    &__inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    &__inner-item {
+        width: 50%;
+        position: relative;
+        &-suptitle{
+            font-size: 30px;
+            font-weight: 400;
+            margin-bottom: 35px;
+        }
+        &-title{
+            text-transform: uppercase;
+            font-size: 55px;
+            margin-bottom: 62px;
+        }
+        &-discount {
+            position: absolute;
+            right: 0;
+            top: 0;
+
+            h2 {
+                text-decoration: line-through;
+                font-size: 24px;
+                margin-bottom: 14px;
+                text-align: right;
+            }
+
+            h1 {
+                color: #D84033;
+                font-size: 41px;
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Loop</title>
+    <link rel="stylesheet" href="/assets/css/style.min.css">
+</head>
+<body>
+    @@include("_header.html")
+    @@include("_intro.html")
+    @@include("_delivery.html")
+    @@include("_collections.html")
+    <section class="section">
+        <div class="section__inner">
+            <h1 class="section__title">Новые модели</h1>
+            @@include("_models.html")
+        </div>
+    </section>
+    @@include("_footer.html")
+    <script src="/assets/js/script.min.js"></script>
+</body>
+</html>

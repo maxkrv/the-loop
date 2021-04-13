@@ -1,0 +1,22 @@
+.delivery {
+    background-color: $dark;
+    &__inner {
+        padding: 80px 0 70px 0;
+        text-align: center;
+        color: #fff;
+    }
+    &__title {
+        margin-bottom: 23px;
+        font-weight: 400;
+        font-size: 30px;
+
+        span {
+            font-weight: 700;
+        }
+    }
+
+    &__subtitle {
+        font-weight: 300;
+        font-size: 21px;
+    }
+}

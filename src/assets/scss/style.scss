@@ -1,0 +1,50 @@
+@import "_mixins.scss";
+@import "_reset.scss";
+@import "_fonts.scss";
+@import "_vars.scss";
+
+body {
+    font-family: $font;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1150px;
+    padding: 20px;
+}
+
+.section {
+
+    &__inner {
+        text-align: center;
+        padding: 150px 0;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 36px;
+    }
+}
+
+
+.button {
+    display: inline-block;
+    margin: 0 auto;
+    color: #fff;
+    padding: 17px 30px;
+    background-color: $accent;
+    text-transform: uppercase;
+    transition: background 0.3s linear;
+    &:hover {
+        background-color: #b89984;
+    }
+    img {
+        display: inline;
+    }
+}
+
+@import "blocks/header.scss";
+@import "blocks/intro.scss";
+@import "blocks/delivery.scss";
+@import "blocks/collections.scss";
+@import "blocks/models.scss";
+@import "blocks/footer.scss";
