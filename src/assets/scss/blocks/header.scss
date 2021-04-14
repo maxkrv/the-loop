@@ -4,11 +4,20 @@
     left: 0;
     width: 100%;
 
+    @include breakpoint (lg) {
+        display: none;
+    }
+
     &__inner {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 50px 0;
+
+        
+        @include breakpoint (lg) {
+            padding: 0;
+        }
     }
 
     &__nav {

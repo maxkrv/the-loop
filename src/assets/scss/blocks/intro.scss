@@ -1,6 +1,7 @@
 .intro {
     background-color: $cream;
     overflow: hidden;
+    height: 100vh;
 
     &__inner {
         display: flex;
@@ -17,7 +18,6 @@
         @include breakpoint(lg) {
             width: 100%;
             &:first-child {
-                padding-top: 150px;
                 text-align: center;
             }
         }
