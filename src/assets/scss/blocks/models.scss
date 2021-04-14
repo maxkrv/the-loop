@@ -20,6 +20,13 @@
         &:hover {
             transform: translateY(-10px);
         }
+        @include breakpoint (lg) {
+            margin-bottom: 20px;
+            width: 47%;
+        }
+        @include breakpoint (sm) {
+            width: 100%;
+        }
     }
 
     &__img {

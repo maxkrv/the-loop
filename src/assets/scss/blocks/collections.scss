@@ -12,6 +12,9 @@
         justify-content: center;
         align-items: center;
         padding: 60px 0;
+        @include breakpoint (lg) {
+            width: 100%;
+        }
     }
 
     &__title {
