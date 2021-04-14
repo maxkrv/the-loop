@@ -34,6 +34,7 @@ body {
     background-color: $accent;
     text-transform: uppercase;
     transition: background 0.3s linear;
+    cursor: pointer;
     &:hover {
         background-color: #b89984;
     }

@@ -16,6 +16,10 @@
         justify-content: center;
         align-items: center;
         border: 3px solid $accent;
+        transition: transform 0.2s;
+        &:hover {
+            transform: translateY(-10px);
+        }
     }
 
     &__img {
